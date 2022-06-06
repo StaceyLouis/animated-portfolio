@@ -1,0 +1,47 @@
+.home-container{
+    max-height: 100vh;
+}
+.home{
+    height: 80vh;
+    font-family: "Erica One";
+    color: var(--text);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+   
+    h1{
+        font-size: 12rem;
+        font-family: "Bugaki";
+        margin-bottom: 2rem;
+    }
+
+    .mid{
+        height: 20vh;
+    }
+    ul{
+        text-align: left;
+        margin: 1rem;
+        display: flex;
+
+        li{
+            text-align: left;
+            a{
+                text-decoration: none;
+                color: var(--text);
+                font-size: 3rem;
+                margin: 1rem;
+                &:hover{
+                    font-family: 'Courier New', Courier, monospace;
+                }
+            }
+        }
+    }
+}
+
+.home-logo{
+  stroke: white;
+  fill: white;
+  width: 2rem;
+}

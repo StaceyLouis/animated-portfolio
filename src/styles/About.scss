@@ -1,0 +1,38 @@
+.about{
+    font-family: Bugaki;
+    max-height: 100vh;
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    div{
+        display: flex;
+        img{
+            border-radius: 50%;
+        }
+    }
+    .jumbotron{
+        font-family: Bugaki;
+        width: 30rem;
+        padding: 1rem;
+        line-height: 2rem;
+    }
+}
+
+.skills{
+    margin-top: 1rem;
+    width: 50%;
+   ul{
+       display: flex;
+       flex-flow: row wrap;
+       text-align: center;
+       li{
+        margin: 1rem;
+        list-style-type: "* "  ;
+      
+
+       }
+   }
+}

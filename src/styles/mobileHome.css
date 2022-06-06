@@ -1,0 +1,11 @@
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .main-title{
+        font-size: 2rem ;
+        color: black;
+       
+    }
+    .links{
+        font-size: 2rem;
+        color: black;
+    }
+}

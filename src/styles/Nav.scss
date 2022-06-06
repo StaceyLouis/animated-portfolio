@@ -1,0 +1,32 @@
+.nav{
+    height: 3rem;
+    color: var(--text);
+   display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+
+    .logo{
+        img{
+            width: 10%;
+        }
+    }
+    .nav-items{
+        display: flex;
+        button{
+            background-color: transparent;
+            color: var(--text);
+            font-family: var(--font);
+            border: 0.1rem solid var(--text);
+            width: 6rem;
+            height: 2rem;
+            margin: 0.4rem;
+        }
+    }
+    .item{
+        text-decoration: none;
+        color: inherit;
+        margin: 1rem;
+        
+    }
+}
