@@ -29,6 +29,7 @@ body {
 	background: #b89186;
 	background-repeat: no-repeat;
 	font-family: var(--font);
+	
 }
 ol, ul {
 	list-style: none;

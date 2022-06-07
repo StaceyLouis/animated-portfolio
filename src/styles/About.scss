@@ -1,38 +1,63 @@
 .about{
-    font-family: Bugaki;
     max-height: 100vh;
     color: var(--text);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+    h1{
+        font-family: Bugaki;
+        color:rgb(50, 7, 7);
+        font-size: 6rem;
+        margin: 2rem;
+    }
     div{
+        margin-top: 1rem;
         display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
         img{
             border-radius: 50%;
+            width: 20rem;
         }
     }
     .jumbotron{
-        font-family: Bugaki;
         width: 30rem;
         padding: 1rem;
         line-height: 2rem;
+        font-size: 2rem;
+     span{
+         color:rgb(242,222,196);
+     }
+        a{
+            color: rgb(50,7,7);
+            text-decoration: none;
+        }
     }
 }
 
-.skills{
-    margin-top: 1rem;
-    width: 50%;
-   ul{
-       display: flex;
-       flex-flow: row wrap;
-       text-align: center;
-       li{
-        margin: 1rem;
-        list-style-type: "* "  ;
-      
 
+.skills{
+    display: flex;
+    flex-direction: column;
+    h2{
+        font-size: 4rem;
+        font-family: "Bugaki";
+        color: rgb(50,7,7);
+
+    }
+
+    ul{
+        display: flex;
+        flex-direction: row wrap;
+       div{
+           display: flex;
+           flex-direction: column;
+        li{
+            list-style-type: "\2023 ";
+            margin: 1rem;
+            font-size: 2rem;
+            &:hover{
+               color: rgb(50,7,7);
+            }
+        }
        }
-   }
+    }
 }
